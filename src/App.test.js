@@ -11,7 +11,7 @@ describe("App", () => {
     expect(linkElement).toBeInTheDocument();
   });
 
-  it("should render a github actions link", () => {
+  it("should render a learn github actions link", () => {
     render(<App />);
 
     const linkElement = screen.getByText(/learn gitHub actions/i);
